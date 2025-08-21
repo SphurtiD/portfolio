@@ -1,0 +1,50 @@
+.pixel-character {
+position: fixed;
+bottom: 16px; /* adjust as per logo/music player */
+width: 48px;
+height: 48px;
+image-rendering: pixelated;
+z-index: 50;
+}
+
+.pixel-character.walking-right {
+background: url("/sprites/walk_right_sprite_sheet.png") no-repeat;
+background-size: cover;
+animation: walkAnim 0.5s steps(4) infinite;
+}
+
+.pixel-character.walking-left {
+background: url("/sprites/walk_left_sprite_sheet.png") no-repeat;
+background-size: cover;
+animation: walkAnim 0.5s steps(4) infinite;
+}
+
+.pixel-character.rolling {
+background: url("/sprites/roll_sprite_sheet.png") no-repeat;
+background-size: cover;
+animation: rollAnim 0.4s steps(6) infinite;
+}
+
+@keyframes walkAnim {
+from { background-position: 0 0; }
+to { background-position: -192px 0; } /* 48px * 4 frames */
+}
+
+@keyframes rollAnim {
+from { background-position: 0 0; }
+to { background-position: -288px 0; } /* 48px * 6 frames */
+}
+
+.speech-bubble {
+position: absolute;
+bottom: 100%;
+left: 50%;
+transform: translateX(-50%);
+background: #fff;
+color: #333;
+padding: 4px 8px;
+border-radius: 8px;
+font-size: 0.6rem;
+white-space: nowrap;
+box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}  
