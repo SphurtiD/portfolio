@@ -188,7 +188,7 @@ export default function skills() {
             ✨ My Skill Set
           </h1>
           <p className="mt-4 text-xl flex justify-center">
-            What I've learned, loved, and leveled up on the journey!
+            What I&apos;ve learned, loved, and leveled up on the journey!
           </p>
           <p className="mt-4 text-xl flex justify-center">
             Scroll down to check out 👇
