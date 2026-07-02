@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { brillant } from "../fonts";
 import Link from "next/link";
 
@@ -29,7 +28,7 @@ export default function aboutme() {
             </div>
             <h1 className="text-3xl font-bold pb-3">Hey, There! 👋</h1>
             <h1 className={`${brillant.className} text-3xl font-bold pb-2`}>
-              I'm Sphurti <span className="text-purple-600">Dixit</span> !
+              I&apos;m Sphurti <span className="text-purple-600">Dixit</span> !
             </h1>
             <div className="flex justify-center items-center gap-3 mt-2">
               <Link
@@ -53,7 +52,7 @@ export default function aboutme() {
               Datta Meghe College of Engineering, Airoli.
             </p>
             <p className="py-2">
-              ✨ I'm a curious and creative mind who finds joy in building
+              ✨ I&apos;m a curious and creative mind who finds joy in building
               visually appealing web experiences.
             </p>
             <p className="py-2">
@@ -67,8 +66,8 @@ export default function aboutme() {
             <p className="py-2">
               🚀 I started my tech journey diving into Python and machine
               learning, but soon discovered my love for designing and building
-              websites. Since then, I've been focusing on mastering frontend
-              technologies like React, Tailwind CSS, and Next.js.
+              websites. Since then, I&apos;ve been focusing on mastering
+              frontend technologies like React, Tailwind CSS, and Next.js.
             </p>
             <p className="mt-6 text-xl flex justify-center">
               Scroll down to know some fun facts about me 👇
