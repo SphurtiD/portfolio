@@ -22,7 +22,7 @@ export function CursorPicker() {
     <div
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
-      className="fixed top-20 right-4 z-50 transition-all duration-300"
+      className="fixed top-30 right-4 z-50 transition-all duration-300"
     >
       {/* Outer glow gradient wrapper */}
       <div className="bg-gradient-to-r from-purple-500 to-pink-500 p-[2px] rounded-full hover:shadow-[0_0_20px_#a855f7] transition duration-300 w-fit">
