@@ -42,8 +42,9 @@ export default function RootLayout({
         <CursorPicker />
         <ThemeProvider
           attribute="class"
-          defaultTheme="system"
-          enableSystem
+          defaultTheme="dark"
+          enableSystem={false}
+          forcedTheme="dark"
           disableTransitionOnChange
         >
           <Navbar />
