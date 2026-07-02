@@ -23,8 +23,12 @@ export default function eduexp() {
             <p className="mb-5 font-bold">
               Datta Meghe College of Engineering, Airoli, Navi Mumbai
             </p>
-            <p className="mb-5"><span className="font-bold">Graduated: </span> May 2026</p>
-            <p className="mt-6 mb-5"><span className="font-bold">CGPA: </span> 8.32 / 10</p>
+            <p className="mb-5">
+              <span className="font-bold">Graduated: </span> May 2026
+            </p>
+            <p className="mt-6 mb-5">
+              <span className="font-bold">CGPA: </span> 8.32 / 10
+            </p>
             <p className="mt-6 text-xl flex justify-center">
               Scroll to explore Experience, Achievements & Certifications 👇
             </p>
@@ -47,10 +51,11 @@ export default function eduexp() {
             </h2>
 
             <p className="text-lg text-gray-400 mb-6">
-              Represented my college as a finalist in India&apos;s largest nationwide
-              innovation competition. Developed an AI-powered enterprise
-              document intelligence platform for Kochi Metro Rail Limited
-              (KMRL), competing among the country&apos;s top student teams.
+              Represented my college as a finalist in India&apos;s largest
+              nationwide innovation competition. Developed an AI-powered
+              enterprise document intelligence platform for Kochi Metro Rail
+              Limited (KMRL), competing among the country&apos;s top student
+              teams.
             </p>
 
             <div className="space-y-2 text-gray-300 mb-8">
@@ -267,7 +272,8 @@ export default function eduexp() {
             <p className="text-lg text-gray-400 mb-6">
               Successfully completed the <b>Google Cloud Gen AI Academy</b> in
               collaboration with <b>Hack2Skill</b>, gaining hands-on experience
-              building Generative AI applications using Google&apos;s AI ecosystem.
+              building Generative AI applications using Google&apos;s AI
+              ecosystem.
             </p>
 
             <div className="space-y-2 text-gray-300 mb-8">
@@ -283,7 +289,7 @@ export default function eduexp() {
 
           <div className="flex justify-center">
             <img
-              src="/images/hack2skill.png"
+              src="/images/Hack2skill.png"
               alt="Google Cloud Gen AI Academy Certificate"
               className="rounded-xl shadow-2xl border border-gray-700 max-h-[500px] object-contain"
             />
