@@ -39,7 +39,9 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} ${oxanium.variable} font-oxanium antialiased mx-auto p-4 sm:p-6 lg:p-8`}
       >
         <MusicPlayer />
-        <CursorPicker />
+        <div className="hidden lg:block">
+          <CursorPicker />
+        </div>
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"

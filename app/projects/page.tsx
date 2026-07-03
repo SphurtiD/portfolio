@@ -26,6 +26,7 @@ export default function Projects() {
         stack="React • Django REST Framework • PostgreSQL • AWS S3 • OCR"
         github="https://github.com/KMRL-Org/KMRL"
         video="https://youtube.com/embed/4YpT1sfRQTU?si=WiOHFVSX20DfDtpE"
+        note=""
       />
 
       <ProjectCard
@@ -34,6 +35,7 @@ export default function Projects() {
         stack="React • FastAPI • SQLite • Whisper • Gemini AI"
         github="https://drive.google.com/drive/folders/15PFEx96CA95WZVL6uSfkVNR3sCt58CBA?usp=sharing"
         video="https://www.youtube.com/embed/..."
+        note=""
       />
 
       <ProjectCard
@@ -42,16 +44,17 @@ export default function Projects() {
         stack="Godot 4.4.1 • GDScript • Aseprite • Pixel Art"
         github="https://github.com/SphurtiD/CyberVoid-Dash"
         video="https://www.youtube.com/embed/Y_AOzUXCpEU"
+        note=""
       />
 
       <ProjectCard
-        title="RAYS — Smart Healthcare App"
-        description="A full-stack health companion app to track, monitor and suggest medical remedies."
-        stack="Next.js • Django • PostgreSQL"
+        title="RAYS – Intelligent Healthcare Assistant"
+        description="Built an AI-powered healthcare platform featuring a RAG-based medical chatbot, secure health record vault, disease prediction models, and interactive wellness assessment tools for preliminary health screening."
+        stack="React.js • Django REST Framework • Next.js (Prototype UI) • RAG • LLM"
+        note="The showcased repository contains the Next.js frontend prototype. The complete React + Django implementation is linked in the YouTube video description."
         github="https://github.com/SphurtiD/code_trial"
         video="https://www.youtube.com/embed/hJ8C7MjFArs"
       />
-
     </div>
   );
 }
