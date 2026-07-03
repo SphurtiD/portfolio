@@ -48,8 +48,8 @@ export default function aboutme() {
 
             <p className="py-2">📍Mumbai, India.</p>
             <p className="py-2">
-              🎓 Pursuing B.E. in Artificial Intelligence & Data Science at
-              Datta Meghe College of Engineering, Airoli.
+              🎓 Completed B.E. in Artificial Intelligence & Data Science at
+              Datta Meghe College of Engineering, Airoli with 8.32 / 10 CGPA.
             </p>
             <p className="py-2">
               ✨ I&apos;m a curious and creative mind who finds joy in building
