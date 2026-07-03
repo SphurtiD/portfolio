@@ -12,24 +12,28 @@ export default function eduexp() {
         }}
       >
         <div className="hero-overlay"></div>
-        <div className="hero-content text-neutral-content text-center">
-          <div className="max-w-md">
-            <h1 className={`${brillant.className} mb-5 text-5xl font-bold`}>
+        <div className="hero-content text-neutral-content text-center w-full px-4">
+          <div className="w-full max-w-2xl">
+            <h1
+              className={`${brillant.className} mb-5 text-3xl sm:text-4xl md:text-5xl font-bold break-words`}
+            >
               🎓 EDUCATION
             </h1>
-            <p className="mb-5 font-bold">
+            <p className="mb-4 font-bold text-base sm:text-lg md:text-xl px-2">
               B.E. in Artificial Intelligence & Data Science
             </p>
-            <p className="mb-5 font-bold">
-              Datta Meghe College of Engineering, Airoli, Navi Mumbai
+            <p className="mb-5 font-bold text-base sm:text-lg md:text-xl px-2 leading-relaxed break-words">
+              Datta Meghe College of Engineering
+              <br />
+              Airoli, Navi Mumbai
             </p>
-            <p className="mb-5">
+            <p className="mb-4 text-sm sm:text-base md:text-lg">
               <span className="font-bold">Graduated: </span> May 2026
             </p>
-            <p className="mt-6 mb-5">
+            <p className="mb-5 text-sm sm:text-base md:text-lg">
               <span className="font-bold">CGPA: </span> 8.32 / 10
             </p>
-            <p className="mt-6 text-xl flex justify-center">
+            <p className="mt-6 text-base sm:text-lg md:text-xl text-center px-2">
               Scroll to explore Experience, Achievements & Certifications 👇
             </p>
           </div>
