@@ -31,11 +31,11 @@ export default function Projects() {
 
       <ProjectCard
         title="HerWay"
-        description="AI-powered intelligent safety assistant for solo female travelers featuring multilingual threat detection, SOS alerts and community safety tools. (Video coming soon)"
+        description="AI-powered intelligent safety assistant for solo female travelers featuring multilingual threat detection, SOS alerts and community safety tools."
         stack="React • FastAPI • SQLite • Whisper • Gemini AI"
         github="https://drive.google.com/drive/folders/15PFEx96CA95WZVL6uSfkVNR3sCt58CBA?usp=sharing"
         video="https://www.youtube.com/embed/..."
-        note=""
+        note="Video walkthrough coming soon"
       />
 
       <ProjectCard
